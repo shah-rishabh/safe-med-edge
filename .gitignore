@@ -7,4 +7,7 @@
 # pycache
 *__pycache__
 
+# coverage
+.coverage
+
 structure.txt
