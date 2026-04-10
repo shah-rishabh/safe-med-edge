@@ -1,0 +1,10 @@
+# env
+.env
+
+# .venv
+.venv
+
+# pycache
+*__pycache__
+
+structure.txt

@@ -1,0 +1,37 @@
+[
+    {
+        "query": "fever and headache",
+        "response": "{\n  \"condition\": [\n    \"fever\",\n    \"headache\"\n  ],\n  \"severity\": \"medium\",\n  \"recommendation\": \"Rest and drink plenty of fluids. Monitor your symptoms and seek medical advice if they worsen.\",\n  \"confidence_score\": 0.7\n}",
+        "latency": 15.36,
+        "tokens": 69,
+        "tps": 4.49
+    },
+    {
+        "query": "chest pain and dizziness",
+        "response": "{\n  \"condition\": [\n    \"chest pain\",\n    \"dizziness\"\n  ],\n  \"severity\": \"high\",\n  \"recommendation\": \"Seek immediate emergency medical attention. Call emergency services right away.\",\n  \"confidence_score\": 0.95\n}",
+        "latency": 2.84,
+        "tokens": 64,
+        "tps": 22.54
+    },
+    {
+        "query": "mild cough for 3 days",
+        "response": "{\n  \"condition\": [\n    \"common cold\",\n    \"mild upper respiratory infection\"\n  ],\n  \"severity\": \"low\",\n  \"recommendation\": \"Rest and stay hydrated. Monitor your symptoms for any worsening.\",\n  \"confidence_score\": 0.85\n}",
+        "latency": 2.86,
+        "tokens": 66,
+        "tps": 23.08
+    },
+    {
+        "query": "I have fever, headache, fatigue, body ache, and mild cough for 4 days",
+        "response": "{\n  \"condition\": [\n    \"common cold\",\n    \"flu\",\n    \"viral infection\"\n  ],\n  \"severity\": \"medium\",\n  \"recommendation\": \"Rest and stay hydrated. Monitor your symptoms closely for any worsening signs.\",\n  \"confidence_score\": 0.7\n}",
+        "latency": 2.89,
+        "tokens": 70,
+        "tps": 24.22
+    },
+    {
+        "query": "I feel weird and tired",
+        "response": "{\n  \"condition\": [\n    \"fatigue\",\n    \"general malaise\"\n  ],\n  \"severity\": \"low\",\n  \"recommendation\": \"Rest and drink plenty of fluids. Monitor your symptoms closely.\",\n  \"confidence_score\": 0.7\n}",
+        "latency": 2.86,
+        "tokens": 63,
+        "tps": 22.03
+    }
+]

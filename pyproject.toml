@@ -1,0 +1,13 @@
+[project]
+name = "safe-med-edge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "pre-commit>=4.5.1",
+    "pydantic>=2.12.5",
+    "requests>=2.33.1",
+    "ruff>=0.15.10",
+]
